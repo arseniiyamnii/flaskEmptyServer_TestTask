@@ -12,13 +12,16 @@ logging.basicConfig(filename='log',format='%(asctime)-15s %(message)s', level=lo
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 @app.route('/')
-def hello():
+def index():
     return("Hello World!")
 
+@app.route('/api')
+def api():
+        return('Hello, World API')
 @app.route('/<path:other>')
 def fallback(other):
     message=""
-    if(request.method!="GET"):
+    if(request.method!="GET" or request.args.get("invalid")=="1"):
         message+="ERROR::"
         #print(json.dumps(request.args))
         #logging.info(request.method,request.url,request.args,time.time)
@@ -28,10 +31,10 @@ def fallback(other):
     else:
         message+=" args=none"
     logging.info(message)
-    print("method= ",request.method)
-    print("url= ",request.url)
-    print("args= ",request.args)
-    print("time= ", time.time())
+    #print("method= ",request.method)
+    #print("url= ",request.url)
+    #print("args= ",request.args)
+    #print("time= ", time.time())
     return 'This one catches everything else'
 
 if __name__ == '__main__':
