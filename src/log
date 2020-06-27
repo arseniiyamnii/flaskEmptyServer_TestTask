@@ -4,3 +4,33 @@
 2020-06-27 04:47:36,544 ERROR::methodSUKA=GET url=http://localhost:8001/qwerty234444333n?invalid=1 args={"invalid": "1"}
 2020-06-27 04:47:37,573 ERROR::methodSUKA=GET url=http://localhost:8001/qwerty234444333n?invalid=1 args={"invalid": "1"}
 2020-06-27 04:55:35,175 ERROR::methodSUKA=GET url=http://localhost:8001/qwerty234444333n?invalid=1 args={"invalid": "1"}
+2020-06-27 16:35:47,338 method=GET url=http://localhost:8001/api args=none
+2020-06-27 16:35:47,339 run process1
+2020-06-27 16:35:47,340 run process2
+2020-06-27 16:35:47,340 run process3
+2020-06-27 16:35:57,003 ERROR::method=GET url=http://localhost:8001/api2 args=none
+2020-06-27 16:36:00,134 method=GET url=http://localhost:8001/api args=none
+2020-06-27 16:36:00,135 run process1
+2020-06-27 16:36:00,135 run process2
+2020-06-27 16:36:00,135 run process3
+2020-06-27 16:36:21,734 method=GET url=http://localhost:8001/api?notawalin=1 args={"notawalin": "1"}
+2020-06-27 16:36:21,735 run process1
+2020-06-27 16:36:21,735 run process2
+2020-06-27 16:36:21,736 run process3
+2020-06-27 16:36:28,018 method=GET url=http://localhost:8001/api?notawalid=1 args={"notawalid": "1"}
+2020-06-27 16:36:28,018 run process1
+2020-06-27 16:36:28,019 run process2
+2020-06-27 16:36:28,019 run process3
+2020-06-27 16:38:05,406 method=GET url=http://localhost:8001/api?notawalid=1 args={"notawalid": "1"}
+2020-06-27 16:38:05,407 run process1
+2020-06-27 16:38:05,407 run process2
+2020-06-27 16:38:05,407 run process3
+2020-06-27 16:39:02,632 method=GET url=http://localhost:8001/api args=none
+2020-06-27 16:39:02,633 run process1
+2020-06-27 16:39:02,633 run process2
+2020-06-27 16:39:02,633 run process3
+2020-06-27 16:39:02,776 ERROR::method=GET url=http://localhost:8001/favicon.ico args=none
+2020-06-27 16:39:03,075 method=GET url=http://localhost:8001/api?notawaiting=1 args={"notawaiting": "1"}
+2020-06-27 16:39:03,076 run process1
+2020-06-27 16:39:03,076 ERROR::run process2
+2020-06-27 16:39:03,076 run process3
