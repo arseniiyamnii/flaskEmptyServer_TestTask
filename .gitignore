@@ -4,3 +4,6 @@
 /pyvenv.cfg
 /share
 /bin
+*.swp
+*.swo
+/emptyServer/__pycache__
