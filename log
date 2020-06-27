@@ -1,0 +1,13 @@
+2020-06-27 19:25:03,229 method=GET url=http://localhost:8001/api?notawaiting=1 args={"notawaiting": "1"}
+2020-06-27 19:25:03,230 run process1
+2020-06-27 19:25:03,230 ERROR::run process2
+2020-06-27 19:25:03,230 run process3
+2020-06-27 19:25:04,067 method=GET url=http://localhost:8001/api?notawaiting=1 args={"notawaiting": "1"}
+2020-06-27 19:25:04,067 run process1
+2020-06-27 19:25:04,067 ERROR::run process2
+2020-06-27 19:25:04,068 run process3
+2020-06-27 19:25:05,164 method=GET url=http://localhost:8001/api?notawaiting=1 args={"notawaiting": "1"}
+2020-06-27 19:25:05,164 run process1
+2020-06-27 19:25:05,164 ERROR::run process2
+2020-06-27 19:25:05,165 run process3
+2020-06-27 19:25:14,347 ERROR::method=GET url=http://localhost:8001/ args=none

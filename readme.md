@@ -7,6 +7,9 @@ then `cd` to the dirrectory.
 `python3 -m venv .`  
 `direnv allow`  
 `pip3 install -r requirements.txt`  
+
+`flask run -h localhost -p $PORT` on main dirrectory(not src)
+if you run in `srs`, run `export FLASK_APP=main.py`
 OR simple:  
 `pip3 install flask`  
 and then run `main.py`  
