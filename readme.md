@@ -1,19 +1,19 @@
-pylint-7.5/10  
-[Русский](#Русский)  
-[English](#English)  
+![PyLint](https://img.shields.io/badge/PyLint-7.5-green)
+![Flask](https://img.shields.io/badge/flask-1.1.2-blue)
+![Python](https://img.shields.io/badge/Python-3.6.9-green)  
+[Русский](#russian)  
+[English](#english)  
   
 # English
   
 ## Note:  
 I KNOW that in working program, `.env` file must be in `.gitignore`  
   
-=====  
   
 ## PRE INSTALL:  
 it works with direnv and venv. You need installed python3 venv to use this easy.  
 `pip3 install venv`  
   
-=====  
   
 ## INSTALL:
 then git clone with:
@@ -30,7 +30,6 @@ run server
 `flask run -h localhost -p $PORT` on main dirrectory(not '/emptyServer')  
 IF you run it in `emptyServer`, first run `export FLASK_APP=server.py`  
   
-=====  
   
 ## USAGE:  
 after running you can go to the http://localhost:8001  
@@ -42,7 +41,6 @@ at the /api, you run three process
 evry process logging  
 if you request got parameter notawaiting=1, process2 lgging as ERROR  
   
-=====  
   
 ## TESTS:  
 pylint-6/10  
@@ -51,21 +49,19 @@ go to the test folder
 `cd emptyServer/tests`  
 run `pytest`  
   
-[Русский](#Русский)  
-[English](#English)  
+[Русский](#russian)  
+[English](#english)  
   
-# Русский
+# Russian
   
 ## Заметка:  
 Я знаю,что в рабочей программе, `.env` файл, должен быть в `.gitignore`  
   
-=====  
   
 ## Подготовка к установке:  
 Хорошо работает с direnv и venv. Вам нужен установленный python3 venv для простоты использования.  
 `pip3 install venv`  
   
-=====  
   
 ## Установка:
 Клонируем:
@@ -82,7 +78,6 @@ run `pytest`
 `flask run -h localhost -p $PORT` в главной дирректории(не в  '/emptyServer')  
 Если вы запускаете в дирректории `emptyServer`, для начала выполните `export FLASK_APP=server.py`  
   
-=====  
   
 ## Использование:  
 После запуска пройдите по ссылке http://localhost:8001  
@@ -94,7 +89,6 @@ run `pytest`
 Каждый процесс логируется  
 Если в запросе есть параметр  notawaiting=1, второй процесс Логируется как ошибка  
   
-=====  
   
 ## ТЕСТЫ:  
 pylint-6/10  
