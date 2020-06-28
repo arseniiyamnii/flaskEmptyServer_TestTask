@@ -1,3 +1,96 @@
 2020-06-28 04:07:10,572 ERROR::method=GET url=http://localhost/ args=none
 2020-06-28 04:08:36,667 ERROR::method=GET url=http://localhost/ args=none
 2020-06-28 04:09:46,855 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 14:53:33,806 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 14:53:51,390 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:04:38,097 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:10:19,920 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:15:00,723 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:19:30,035 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:19:30,175 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:19:30,176 run process1
+2020-06-28 15:19:30,176 run process2
+2020-06-28 15:19:30,176 run process3
+2020-06-28 15:23:19,570 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:23:19,575 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 15:23:19,584 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:23:19,585 run process1
+2020-06-28 15:23:19,585 run process2
+2020-06-28 15:23:19,585 run process3
+2020-06-28 15:32:07,044 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:32:07,050 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 15:32:07,060 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:32:07,060 run process1
+2020-06-28 15:32:07,060 run process2
+2020-06-28 15:32:07,060 run process3
+2020-06-28 15:32:07,069 Exception on /randomly [GET]
+Traceback (most recent call last):
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: fallback() got an unexpected keyword argument 'other'
+2020-06-28 15:33:14,039 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:33:14,045 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 15:33:14,056 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:33:14,056 run process1
+2020-06-28 15:33:14,056 run process2
+2020-06-28 15:33:14,057 run process3
+2020-06-28 15:33:14,067 Exception on /randomly [GET]
+Traceback (most recent call last):
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/arsenii/Hobby/Programming/flaskEmptyServer_TestTask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: other() got an unexpected keyword argument 'other'
+2020-06-28 15:36:07,819 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:36:07,824 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 15:36:07,835 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:36:07,836 run process1
+2020-06-28 15:36:07,836 run process2
+2020-06-28 15:36:07,836 run process3
+2020-06-28 15:36:07,847 ERROR::method=GET url=http://localhost/randomly?invalid=1 args={"invalid": "1"}
+2020-06-28 15:49:06,896 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:49:06,902 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 15:49:06,913 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:49:06,913 run process1
+2020-06-28 15:49:06,914 run process2
+2020-06-28 15:49:06,914 run process3
+2020-06-28 15:49:06,924 ERROR::method=GET url=http://localhost/randomly?invalid=1 args={"invalid": "1"}
+2020-06-28 15:59:48,043 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 15:59:48,052 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 15:59:48,067 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 15:59:48,067 run process1
+2020-06-28 15:59:48,068 run process2
+2020-06-28 15:59:48,068 run process3
+2020-06-28 15:59:48,083 ERROR::method=GET url=http://localhost/randomly?invalid=1 args={"invalid": "1"}
+2020-06-28 16:01:36,252 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 16:01:36,261 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 16:01:36,274 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 16:01:36,274 run process1
+2020-06-28 16:01:36,275 run process2
+2020-06-28 16:01:36,275 run process3
+2020-06-28 16:01:36,288 ERROR::method=GET url=http://localhost/randomly?invalid=1 args={"invalid": "1"}
+2020-06-28 16:07:41,092 ERROR::method=GET url=http://localhost/?invalid=1 args={"invalid": "1"}
+2020-06-28 16:07:41,124 ERROR::method=POST url=http://localhost/ args=none
+2020-06-28 16:07:41,138 ERROR::method=GET url=http://localhost/api?invalid=1 args={"invalid": "1"}
+2020-06-28 16:07:41,138 run process1
+2020-06-28 16:07:41,138 run process2
+2020-06-28 16:07:41,138 run process3
+2020-06-28 16:07:41,148 ERROR::method=GET url=http://localhost/randomly?invalid=1 args={"invalid": "1"}
