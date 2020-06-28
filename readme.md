@@ -2,20 +2,20 @@ pylint-7.5/10
 [Русский](#Русский)  
 [English](#English)  
   
- #English
+# English
   
- ##Note:  
+## Note:  
 I KNOW that in working program, `.env` file must be in `.gitignore`  
   
 =====  
   
- ##PRE INSTALL:  
+## PRE INSTALL:  
 it works with direnv and venv. You need installed python3 venv to use this easy.  
 `pip3 install venv`  
   
 =====  
   
- ##INSTALL:
+## INSTALL:
 then git clone with:
 `git clone https://github.com/arseniiyamnii/flaskEmptyServer_TestTask.git`
 then `cd` to the dirrectory.  
@@ -32,7 +32,7 @@ IF you run it in `emptyServer`, first run `export FLASK_APP=server.py`
   
 =====  
   
- ##USAGE:  
+## USAGE:  
 after running you can go to the http://localhost:8001  
 every request logging to the `log` file  
 all requests wtithout `GET` method logging as ERROR  
@@ -44,7 +44,7 @@ if you request got parameter notawaiting=1, process2 lgging as ERROR
   
 =====  
   
- ##TESTS:  
+## TESTS:  
 pylint-6/10  
   
 go to the test folder  
@@ -54,20 +54,20 @@ run `pytest`
 [Русский](#Русский)  
 [English](#English)  
   
- #Русский
+# Русский
   
- ##Заметка:  
+## Заметка:  
 Я знаю,что в рабочей программе, `.env` файл, должен быть в `.gitignore`  
   
 =====  
   
- ##Подготовка к установке:  
+## Подготовка к установке:  
 Хорошо работает с direnv и venv. Вам нужен установленный python3 venv для простоты использования.  
 `pip3 install venv`  
   
 =====  
   
- ##Установка:
+## Установка:
 Клонируем:
 `git clone https://github.com/arseniiyamnii/flaskEmptyServer_TestTask.git`
 потом `cd` в дирректорию.  
@@ -84,7 +84,7 @@ run `pytest`
   
 =====  
   
- ##Использование:  
+## Использование:  
 После запуска пройдите по ссылке http://localhost:8001  
 Каждый запрос логируется в `log` файл  
 Все запрсы не через `GET` метод логируются как Ошибка  
@@ -96,7 +96,7 @@ run `pytest`
   
 =====  
   
- ##ТЕСТЫ:  
+## ТЕСТЫ:  
 pylint-6/10  
   
 Для тестироывния пройдите в дирректорию с тестами  
