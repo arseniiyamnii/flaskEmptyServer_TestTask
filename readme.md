@@ -26,6 +26,11 @@ create new venv
 `python3 -m venv .`  
 allow direnv  
 `direnv allow`  
+IF you have not `direnv`, you need:
+* `source ./bin/activate` for avtivate venv
+* `export PORT=8001` create envoirment variable PORT
+* `export FLASK_APP=empty_server/server.py` for command `flask run`  
+
 install requirements  
 `pip3 install -r requirements.txt`  
 run server  
@@ -48,6 +53,7 @@ if you request got parameter notawaiting=1, process2 lgging as ERROR
   
 in main folder run  
 `pytest --cov emptyServer/ tests/`
+`pylint --load-plugins=pylint_flask empty_server/` 
   
 [Русский](#russian)  
 [English](#english)  
@@ -72,6 +78,11 @@ in main folder run
 `python3 -m venv .`  
 Разрешим direnv работу в дирректории  
 `direnv allow`  
+Если у вас нет `direnv`, вам нужно выполнить:
+* `source ./bin/activate` для активации venv
+* `export PORT=8001` создаем переменную окружения PORT
+* `export FLASK_APP=empty_server/server.py` это для запуска команды `flask run`  
+
 Устанвим зависимости  
 `pip3 install -r requirements.txt`  
 Запускаем сервер  
