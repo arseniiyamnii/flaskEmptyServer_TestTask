@@ -6,4 +6,7 @@
 /bin
 *.swp
 *.swo
-/emptyServer/__pycache__
+**/__pycache__/
+*log
+/.pytest_cache
+*.coverage
