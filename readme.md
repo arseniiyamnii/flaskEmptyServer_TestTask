@@ -1,7 +1,8 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/arseniiyamnii/flaskemptyserver_testtask/badge)](https://www.codefactor.io/repository/github/arseniiyamnii/flaskemptyserver_testtask)
-![PyLint](https://img.shields.io/badge/PyLint-7.5-green)
+![PyLint8.98](https://img.shields.io/badge/PyLint-8.98-green)
+![Coverage](https://img.shields.io/badge/Coverage-92%-green)
 ![Flask](https://img.shields.io/badge/flask-1.1.2-blue)
-![Python](https://img.shields.io/badge/Python-3.6.9-green)  
+![Python](https://img.shields.io/badge/Python-3.6.9-blue)  
 [Русский](#russian)  
 [English](#english)  
   
@@ -44,11 +45,9 @@ if you request got parameter notawaiting=1, process2 lgging as ERROR
   
   
 ## TESTS:  
-pylint-6/10  
   
-go to the test folder  
-`cd emptyServer/tests`  
-run `pytest`  
+in main folder run  
+`pytest --cov emptyServer/ tests/`
   
 [Русский](#russian)  
 [English](#english)  
@@ -92,11 +91,9 @@ run `pytest`
   
   
 ## ТЕСТЫ:  
-pylint-6/10  
   
-Для тестироывния пройдите в дирректорию с тестами  
-`cd emptyServer/tests`  
-Запустите `pytest`  
+Запустите  
+`pytest --cov emptyServer/ tests/`
 Есть 3 теста на каждый вид URL
 
 
