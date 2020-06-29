@@ -1,6 +1,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/arseniiyamnii/flaskemptyserver_testtask/badge)](https://www.codefactor.io/repository/github/arseniiyamnii/flaskemptyserver_testtask)
 ![PyLint8.98](https://img.shields.io/badge/PyLint-8.98-green)
 ![Coverage](https://img.shields.io/badge/Coverage-92-green)
+[![GitHub license](https://img.shields.io/github/license/arseniiyamnii/flaskEmptyServer_TestTask)](https://github.com/arseniiyamnii/flaskEmptyServer_TestTask/blob/master/license.txt)
 ![Flask](https://img.shields.io/badge/flask-1.1.2-blue)
 ![Python](https://img.shields.io/badge/Python-3.6.9-blue)  
 [Русский](#russian)  
